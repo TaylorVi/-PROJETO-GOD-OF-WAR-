@@ -30,4 +30,18 @@ header{
             line-height: normal;
         }
     }
-}
+
+    @media(max-width: 560px){
+        .plataform{
+            span{
+                display: none;
+            }
+            }
+            .sony{
+                display: none;
+            }
+            .logo{
+                max-width: 14rem;
+            }
+        }
+    }

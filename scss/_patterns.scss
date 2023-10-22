@@ -13,6 +13,17 @@
     p{
         margin-left: 1.5rem;
     }
+    @media(max-width:1200px){
+        span{
+            transform: scale(0.8);
+        }
+    }
+    @media(max-width:991px){
+        justify-content: center;
+    }
+    @media(max-width:560px){
+        transform: scale(0.7);
+    }
 }
 
 h1{
@@ -21,6 +32,15 @@ h1{
     font-style: normal;
     font-weight: 700;
     line-height: 97.5%; /* 11.7rem */
+    @media(max-width:1200px){
+        font-size: 10rem;
+    }
+    @media(max-width:991px){
+        text-align: center;
+    }
+    @media(max-width:560px){
+        font-size: 6rem;
+    }
 }
 
 h2{
@@ -28,7 +48,14 @@ h2{
     font-style: normal;
     font-weight: 700;
     line-height: 130%; /* 6.24rem */
+    @media(max-width:1440px){
+       font-size: 3.8rem;
+    }
+    @media(max-width:560px){
+        font-size: 3rem;
+     }
 }
+
 
 p{
     color: #BDC2CB;
@@ -50,6 +77,8 @@ p{
         display: flex;
         justify-content: center;
         overflow: hidden;
+        height: 100%;
+        object-fit: cover;
         img{
         transform: scale(101%);
         filter: brightness(0.7);
@@ -94,5 +123,8 @@ p{
                 bottom: 5.8rem;
             }
         }
+    }
+    @media(max-width){
+
     }
 }
