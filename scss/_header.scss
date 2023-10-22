@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    align-items: center;
+    height: 8rem;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .plataform{
+        display: flex;
+        align-items: center;
+        ul{
+            display: flex;
+            margin-left: 1.8rem;
+            gap: 10px;
+            li{
+                font-size: 1.6rem;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                border: solid 0.15rem white;
+                padding: 0.5rem 0.8rem 0.4rem 0.8rem;
+            }
+        }
+        span{
+            font-size: 1.6rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+Subtitle
+
+<h3 class="subtitle">
+    <img src="/img/bullet.svg" alt="">
+    <p>Lançamento dia <span>09/11/2022</span></p>
+</h3>
+
+Card
+
+<div class="card-character">
+    <div class="image">
+        <img src="img/kratos.jpg" alt="">
+        <button>Saiba mais</button>
+    </div>
+    <div class="info">
+        <h3>Kratos</h3>
+        <span>Deus da Guerra</span>
+    </div>
+</div>

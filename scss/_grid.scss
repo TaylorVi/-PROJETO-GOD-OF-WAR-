@@ -1,0 +1,15 @@
+.container{
+    width: 100%;
+    max-width: 143.5rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    @media (max-width: 1440px){
+        max-width: 126rem;
+    }
+}
+
+// dar um padding para ter um respiro
+// com o padding temos que adicionar o tamanho
+// do padding ao max-width para ficar fiel ao 
+// layout
+

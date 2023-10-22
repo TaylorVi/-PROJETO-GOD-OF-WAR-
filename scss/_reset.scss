@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Archivo', sans-serif;
+    color: white;
+    
+}
+
+button{
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+// 62.5% é para o a unidade de medida REM valer 10px
+// ao invês de 16px, que é o default do navegador
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #010404;
+}
